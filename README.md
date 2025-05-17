@@ -13,6 +13,14 @@ You can adjust the image's opacity using the slider, it will also be applied ins
 It has options to remove the topbar and the blurred gradient in voice channels, check them and reload the page to see the changes.
 All settings are applied every time you open Discord
 
+### ❓ How to install
+1. Go to the [Releases page](https://github.com/alefouau/KnDiscord/releases/), download the latest **Source Code (ZIP)**
+2. Extract the folder to a **place where you won't delete it**
+3. Go to your browser, click in the hamburguer menu > Extensions > Manage Extensions (or type `chrome://extensions` in the address bar)
+3. Find an option called "Developer Options" and enable it. Some buttons will appear
+4. Click in the "Load unpacked" button, find and select the folder you extracted
+5. **If the extension appears in the list, the extension is installed successfully.**
+
 ### 🛡️ Extension permissions
 
 - 'scripting': permission to inject some code into Discord, without this, it's impossible to change anything.
