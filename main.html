@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="main.js" defer></script>
+        <link rel="stylesheet" type ="text/css" href ="main.css">
+    </head>
+    <body>
+        <header>
+            <h2 id="title">KnDiscord</h2>
+            <code>v0.1_ptbr</code>
+        </header>
+        <main>
+            <input id="filepicker" type="file">
+            <div class="item">
+                <span>Opacidade</span>
+                <span id="info-opacity"></span>
+                <input id="range-opacity" type="range" min="0" max="1" step="0.05">
+            </div>
+            <div class="item">
+                <span>Remover barra de título *</span>
+                <input name="htb" id="cbx-hide-topbar" type="checkbox">
+            </div>
+            <div class="item">
+                <span>Remover efeito de blur azul em canais de voz *</span>
+                <input name="hncl" id="cbx-hide-ncallui" type="checkbox">
+            </div>
+            <span class="msg">Opções com * no final requer que a página seja recarregada!</span>
+
+        </main>
+        <footer>
+            <button id="btn_github">Github</a>
+            <button id="btn_close">Close</button> 
+        </footer>
+    </body>
+
+</html>

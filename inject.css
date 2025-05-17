@@ -1,0 +1,27 @@
+body {
+    background-color: black !important;
+}
+.theme-darker,.theme-midnight {
+    --background-base-lower: transparent !important;
+    --background-base-lowest: transparent !important;
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+    --bg-base-primary: transparent !important;
+    --bg-base-secondary: transparent !important;
+    --bg-base-tertiary: transparent !important;
+    --background-base-low: transparent !important;
+    --background-surface-high: rgba(25,25,25,0.5) !important;
+    --chat-background-default: rgba(25,25,25,0.5) !important;
+}
+div[class^="callContainer"], div[class^="callContainer"] div[class^="root"] {
+    background-color: transparent !important;
+}
+#custom_bg {
+    position: fixed;
+    object-fit: cover;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}

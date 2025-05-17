@@ -1,0 +1,32 @@
+{   
+    "author": "Alefo",
+    "manifest_version": 3,
+    "name": "KnDiscord",
+    "description":"Change Discord's background and other small tweaks",
+    "version": "0.1",
+        "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+    "action":{
+        "default_popup":"main.html",
+        "default_title":"KnDiscord"
+    },
+    "content_scripts": [
+        {
+            "css":["inject.css"],
+            "js": ["inject.js"],
+            "matches": ["https://discord.com/*"]
+        }
+    ],
+    "permissions": [
+        "scripting",
+        "storage",
+        "unlimitedStorage"
+    ],
+    "host_permissions":[
+        "https://discord.com/*"
+    ]
+}
